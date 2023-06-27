@@ -13,7 +13,7 @@ export const PokemonCard: FC<Props> = ({Pokemon}) => {
 
   const router = useRouter()
   const onCLickFn = () => {
-    router.push(`/pokemon/${ Pokemon.id }`)
+    router.push(`/name/${ Pokemon.name }`)
   }
 
   return (

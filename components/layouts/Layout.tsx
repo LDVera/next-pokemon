@@ -22,9 +22,9 @@ export const Layout : FC<Props>  = ( {children, title, pokemon} ) => {
       <Navbar/>
 
       <main
-        style={{
-          padding: '0px 20px'
-        }}
+        // style={{
+        //   padding: '0px 20px'
+        // }}
       >
         {children}
       </main>

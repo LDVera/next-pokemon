@@ -19,6 +19,7 @@ const Home: NextPage<Props> = ({pokemons}) => {
   
 
   return (
+    <>
     <Layout title='Listado de Pokémons'>
       <Grid.Container gap={2} justify="flex-start">
         {
@@ -28,6 +29,7 @@ const Home: NextPage<Props> = ({pokemons}) => {
         }
       </Grid.Container>
     </Layout>
+    </>
   )
 }
 
